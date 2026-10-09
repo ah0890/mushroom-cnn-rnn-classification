@@ -1,0 +1,24 @@
+# Core data science
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+
+# Deep learning (CNN and RNN are built with TensorFlow/Keras only)
+tensorflow>=2.16
+
+# Jupyter environment
+jupyter
+notebook
+ipykernel
+
+# Hugging Face tokenization (NLP task)
+# Note: torch is listed because the assignment asks for it, but it is NOT used
+# in this project. All neural networks are implemented with TensorFlow/Keras.
+transformers
+torch
+
+# Lets download_data.py verify HTTPS certificates using the operating system's
+# certificate store (needed when a server does not send its full certificate chain)
+truststore

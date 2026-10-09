@@ -1,0 +1,10 @@
+RNN Classification Report (Test Set)
+
+               precision    recall  f1-score   support
+
+   edible (e)     1.0000    1.0000    1.0000      1263
+poisonous (p)     1.0000    1.0000    1.0000      1175
+
+     accuracy                         1.0000      2438
+    macro avg     1.0000    1.0000    1.0000      2438
+ weighted avg     1.0000    1.0000    1.0000      2438
