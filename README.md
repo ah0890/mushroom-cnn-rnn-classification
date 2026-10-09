@@ -90,7 +90,8 @@ mushroom-cnn-rnn-classification/
 ├── outputs/
 │   ├── figures/      # PNG plots
 │   ├── reports/      # classification reports, comparison table, predictions, tokens
-│   └── models/       # trained Keras models (.keras)
+│   ├── models/       # trained Keras models (.keras)
+│   └── screenshots/  # section-by-section screenshots of the executed notebook
 │
 ├── requirements.txt
 ├── README.md
@@ -167,6 +168,11 @@ The first run downloads the `bert-base-uncased` tokenizer from the Hugging Face 
 - `cnn_vs_rnn_comparison.csv`: Model, Optimizer, Batch Size, Epochs, Test Accuracy, and more
 - `test_predictions_cnn_rnn.csv`: actual class vs CNN and RNN predictions for every test sample
 - `tokenization_output.csv`: token, input ID and attention mask for every token
+
+**Screenshots** (`outputs/screenshots/`):
+
+- one PNG per notebook section (code and output), numbered in notebook order
+- `outputs/reports/Mushroom_CNN_RNN_Assignment_Screenshots.docx`: Word document with a title page, contents, results summary and all screenshots with figure captions
 
 **Models** (`outputs/models/`):
 
